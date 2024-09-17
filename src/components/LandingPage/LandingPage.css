@@ -1,0 +1,118 @@
+/* styles.css*/
+body{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+p{
+    font-size: small;
+}
+
+  
+  .image-container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .image-container img{
+    /* width: inherit;
+    height: inherit; */
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    scale: 1;
+    /* object-fit: cover; */
+  }
+  .yellow-text{
+    color: rgb(163, 145, 14);
+    background-color: rgb(7, 3, 3);
+  }
+  .white-btn{
+    background-color: white;
+    color: black;
+    font-size: smaller;
+    height: 25px;
+    width: 100px;
+    padding: 2px;
+  }
+
+  /* business-logo starts */
+  .background-container {
+    
+    margin-top: 41px;
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0); /* Ensure background is transparent */
+    z-index: 1;
+  }
+
+  .background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5; /* Adjust transparency as needed */
+  }
+
+  .business-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjust width as needed */
+    height: 90%;
+    z-index: 2; /* Ensure it is on top of the background image */
+  }
+/* 
+  .content-wrapper {
+    background-color: rgb(222, 106, 106); 
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+  } */
+
+  .image-insta{
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 2px;
+    height: 28px;
+    width: 28px;
+    margin-bottom: 8px;
+  }
+
+  .que-ans{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px;
+  }
+
+  .que-ans p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .connect-to-founder{
+    text-decoration: none;
+    color: white;
+  }
+
+  .small-logo{
+    padding:0;
+    height: 50px;
+    width: 80px;
+  }
